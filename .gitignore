@@ -1,5 +1,6 @@
 # Visual Studio and Rider
 .vscode/
+.vs/
 .idea/
 *.suo
 *.ntvs*
