@@ -9,9 +9,9 @@ namespace Bank_kata.Abstraction
     public class Transaction
     {
         public int Amount { get; }
-        public string Date { get; }
+        public DateTime Date { get; }
 
-        public Transaction(int amount, string date)
+        public Transaction(int amount, DateTime date)
         {
             Amount = amount;
             Date = date;

@@ -8,19 +8,32 @@ namespace Bank_kata.Abstraction
 {
     public class Account : AccountService
     {
-        public void Deposit(int ammount)
+        
+        private readonly List<Transaction> _transactions = new List<Transaction>();
+       public void Deposit(int amount)
         {
-            throw new NotImplementedException();
+            _transactions.Add(new Transaction(amount, DateTime.UtcNow.Date));
         }
-
         public void PrintStatement()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("DATE | AMOUNT | BALANCE");
+             int balance = 0;
+            foreach (var transaction in _transactions.OrderBy(t => t.Date))
+            {
+                balance += transaction.Amount;
+                Console.WriteLine($"{transaction.Date.ToString("dd-MM-yyyy")} | {transaction.Amount} | {balance}");
+            }
         }
 
-        public void Withdraw(int ammount)
+        
+        public void Withdraw(int amount)
         {
-            throw new NotImplementedException();
+            _transactions.Add(new Transaction(-amount, DateTime.UtcNow.Date));
+        }
+       
+        public List<Transaction> GetTransactions()
+        {
+            return _transactions;
         }
     }
 }
