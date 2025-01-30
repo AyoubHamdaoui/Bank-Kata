@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank-Kata", "Bank-Kata.csproj", "{00809AF0-A970-47A0-826E-31BBC5405A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank-kata.Abstraction", "..\Bank-kata.Abstraction\Bank-kata.Abstraction.csproj", "{C5139FE3-D337-4427-A569-89B233375F30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00809AF0-A970-47A0-826E-31BBC5405A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00809AF0-A970-47A0-826E-31BBC5405A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00809AF0-A970-47A0-826E-31BBC5405A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00809AF0-A970-47A0-826E-31BBC5405A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5139FE3-D337-4427-A569-89B233375F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5139FE3-D337-4427-A569-89B233375F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5139FE3-D337-4427-A569-89B233375F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5139FE3-D337-4427-A569-89B233375F30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
