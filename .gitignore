@@ -1,0 +1,59 @@
+# Visual Studio and Rider
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.csproj.user
+
+# Dependencies
+packages/
+node_modules/
+
+# Test coverage and reports
+TestResults/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+*.log
+
+# User-specific files
+*.userprefs
+*.user
+*.rsuser
+*.sln.docstates
+
+# OS-Specific
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+project.lock.json
+nuget.lock
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+
+# Rider & VS Code
+.vscode/
+.idea/
+
+# Ignore xUnit test results
+*.TestResults/
